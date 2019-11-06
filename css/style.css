@@ -1,0 +1,29 @@
+.hero-image{
+    background-image: url('../assets/greekGods.jpg');
+    background-size: 85%;
+}
+.bgLGrey{
+    background-color: lightslategray;
+}
+.white{
+    color:white;
+}
+#titleBtn{
+    margin-top: 50vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.space{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bgBlue{
+    background-color: #6557C6;
+}
