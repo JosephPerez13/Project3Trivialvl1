@@ -1,114 +1,414 @@
 {
-    "ezQ": [
+    "esQ": [
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "What animal grows two heads, if you cut off one?",
+            "a1": "Cerberus",
+            "a2": "Hydra",
+            "a3": "Gorgon",
+            "a4": "Chimera",
+            "cA": "Cerberus"
         },
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "What Creature was half-man half-bull?",
+            "a1": "Minotaur",
+            "a2": "Medusa",
+            "a3": "Cyberus",
+            "a4": "Centaur",
+            "cA": "Minotaur"
         },
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "Who is the king of Gods?",
+            "a1": "Hades",
+            "a2": "Apollo",
+            "a3": "Zeus",
+            "a4": "Poseidon",
+            "cA": "Zeus"
         },
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "Who is the god of the sea?",
+            "a1": "Hercules",
+            "a2": "Poseidon",
+            "a3": "Medusa",
+            "a4": "Artemis",
+            "cA": "Poseidon"
         },
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "5. Who is the god of the underworld?",
+            "a1": "Hades",
+            "a2": "Zeus",
+            "a3": "Ares",
+            "a4": "Apollo",
+            "cA": "Hades"
         },
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "6. Who is the God Of War?",
+            "a1": "Ares",
+            "a2": "Demeter",
+            "a3": "Aphrodite",
+            "a4": "Janus",
+            "cA": "Ares"
         },
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "7. Who is the goddess of revenge?",
+            "a1": "Janus",
+            "a2": "Nike",
+            "a3": "Adidas",
+            "a4": "Nemesis",
+            "cA": "Nemesis"
         },
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "8. Who is the Sun God in greek mythology?",
+            "a1": "Sol",
+            "a2": "Artemis",
+            "a3": "Hephaestus",
+            "a4": "Hypnos",
+            "cA": "Sol"
         },
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "9. Who is the goddess of war",
+            "a1": "Artemis",
+            "a2": "Kali",
+            "A3": "Athena",
+            "a4": "Hera",
+            "cA": "Athena"
         },
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "10. Who is Zeus Wife?",
+            "a1": "Persephone",
+            "a2": "Hera",
+            "a3": "Kalli",
+            "a4": "Artemis",
+            "cA": "Hera"
         },
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "11. What is the name of the animal that guards the underworld?",
+            "a1": "Rattitaskaur",
+            "a2": "Cerberus",
+            "a3": "Ao kuang",
+            "a4": "Fenrir",
+            "cA": "Cerberus"
         },
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "12. Who do the greeks call, the hand of death?",
+            "a1": "Fenrir",
+            "a2": "Thanatos",
+            "a3": "Tyr",
+            "a4": "Chronos",
+            "cA": "Thanatos"
         },
         {
-            "q":"",
-            "a1":"",
-            "a2":"",
-            "a3":"",
-            "a4":"",
-            "c":""
+            "q": "13. Whos the Greek god of time?",
+            "a1": "Zeus",
+            "a2": "Chronos",
+            "a3": "Poseidon",
+            "a4": "Hades",
+            "cA": "Chronos"
+        },
+        {
+            "q" : "14. Who’s known as the weaver",
+            "a1" : "Aphrodite",
+            "a2" : "Artemis",
+            "a3" : "Arachne",
+            "a4" : "Hera",
+            "cA" : "Arachne"
+        },
+        {
+            "q" : "15. Whos the son of zeus?",
+            "a1" : "Achilles",
+            "a2" : "Perseus",
+            "a3" : "Hades",
+            "a4" : "Medusa",
+            "cA" : "Perseus"
+        },
+        {
+            "q" : "16. Whos the hero of the trojan war?",
+            "a1" : "Achilles",
+            "a2" : "Apollo",
+            "a3" : "Chronos",
+            "a4" : "Zeus",
+            "cA" : "Achilles"
+        },
+        {
+            "q" : "17. Whos known at the greatest teacher in Greek mythology?",
+            "a1" : "Tyr",
+            "a2" : "Fenrir",
+            "a3" : "Chiron",
+            "a4" : "Medusa",
+            "cA" : "Chiron"
+        },
+        {
+            "q" : "18. Whos the god of horses?",
+            "a1" : "Poseidon",
+            "a2" : "Hades",
+            "a3" : "Apollo",
+            "a4" : "Artemis",
+            "cA" : "Poseidon"
+        },
+        {
+            "q" : "19. Whos the messenger of the greek gods?",
+            "a1" : "Mercury",
+            "a2" : "Hermes",
+            "a3" : "Artemis",
+            "a4" : "Tyr",
+            "cA" : "Hermes"
+        },
+        {
+            "q" : "19. What titan carries the world on his back?",
+            "a1" : "Atlas",
+            "a2" : "Gaia",
+            "a3" : "Hades",
+            "a4" : "Mercury",
+            "cA" : "Atlas"
+        },
+        { 
+            "q" : "20. Who controls lightning in greek mythology?",
+            "a1" : "Zeus",
+            "a2" : "Artemis",
+            "a3" : "Hades",
+            "a4" : "Tyr",
+            "cA" : "Zeus"
         },
         {
 
+            "q" : "21. Who makes the sun set and rise?",
+            "a1" : "Apollo",
+            "a2" : "Gaia",
+            "a3" : "Medusa",
+            "a4" : "Mercury",
+            "cA" : "Apollo"
         },
         {
-
+            "q" : "22. Who is the blacksmith of the gods?",
+            "a1" : "Hephaestus",
+            "a2" : "Celestia", 
+            "a3" : "Hermes",
+            "a4" : "Bender",
+            "cA" : "Hephaestus"
         },
+        {
+            "q" : "23. Who is the greek god of strength and power?",
+            "a1" : "Kratos",
+            "a2" : "Hercules",
+            "a3" : "Ares",
+            "a4" : "Fry",
+            "cA" : "Kratos"
+        },
+        {
+            "q" : "24. What famous game was based on Greek Mythology?",
+            "a1" : "League of Legends",
+            "a2" : "Smite",
+            "a3" : "Overwatch",
+            "a4" : "World of Warcraft",
+            "cA" : "Smite"
+        },
+        {
+            "q" : "25. Who is the titan of the ocean?",
+            "a1" : "Chronos",
+            "a2" : "Gaia",
+            "a3" : "Oceanus",
+            "a4" : "Palas",
+            "cA" : "Oceanus"
+        },
+        {
+            "q" : "26. What are the group of gods, that came before all, called?",
+            "a1" : "Primordial",
+            "a2" : "Jabawockeez",
+            "a3" : "Wedigo",
+            "a4" : "Step Brothers",
+            "cA" : "Primordial"
+        },
+        {
+            "q" : "27. Whos known as the deadliest monster in greek mythology?",
+            "a1" : "Cerberus",
+            "a2" : "Scylla",		
+            "a3" : "Typhon",
+            "a4" : "World Serpent",		
+            "cA" : "Typhon"
+        },
+        {
+            "q" : "28. Whats the mountain called where the gods converse?",
+            "a1" : "Mt. Olympus",
+            "a2" : "Mt. Everest",
+            "a3" : "Mt. Fiji",
+            "a4" : "Mt. Killamanjoro",
+            "cA" : "Mt. Olympus"
+        },
+        {   
+            "q" : "29. Who challenged zeus for control?",
+            "a1" : "Tritan",
+            "a2" : "Thanatos",
+            "a3" : "Typhon",
+            "a4" : "Uranus",
+            "cA" : "Typhon"
+        },
+        {
+            "q" : "30.whos the father of the titans?",
+            "a1" : "Venus",
+            "a2" : "Uranus",
+            "a3" : "Tartarus", 
+            "a4" : "Prometheus",		
+            "cA" : "Uranus"
+        },
+        {
+            "q" : "31. What is zeus less known for being the god pf?",
+            "a1" : "Lightning",
+            "a2" : "Underworld",
+            "a3" : "Horses",
+            "a4" : "Law & order",
+            "cA" : "Law & order"
+        },
+        {
+            "q" : "32. What is apollo not the god of?",
+            "a1" : "Music",
+            "a2" : "Sun",
+            "a3" : "Archery",
+            "a4" : "Water",
+            "cA" : "Water"
+        },
+        {
+            "q" : "33. Whos the wife of Hades, ruler of the underworld?",
+            "a1" : "Persophone",
+            "a2" : "Hermine",
+            "a3" : "Uranus",
+            "a4" : "Scylla",
+            "cA" : "Persophone"
+        },
+        {
+            "q" : "34. Whos the last known god to enter olympus?",
+            "a1" : "Apollo",
+            "a2" : "Ares",
+            "a3" : "Humans",
+            "a4" : "Dionysus",
+            "cA" : "Dionysus"
+        },
+        {
+            "q" : "35. Whos the goddess of love and beauty?",
+            "a1" : "Aphrodite",
+            "a2" : "Hera",
+            "a3" : "Chronos",
+            "a4" : "Artemis",
+            "cA" : "Aphrodite"
+        },
+        {
+            "q" : "36. Whos the goddess of the hunt?",
+            "a1" : "Artemis",
+            "a2" : "Hermine",
+            "a3" : "Aphrodite",
+            "a4" : "Hades",
+            "cA" : "Artemis"
+        },
+        {
+            "q" : "37. Whos apollos wife?",
+            "a1" : "Noone",
+            "a2" : "Hermine",
+            "a3" : "Hera",
+            "a4" : "Artemis",
+            "cA" : "Noone"
+        },
+        {
+            "q" : "38. Whos the goddess of fortune?",
+            "a1" : "Tyche",
+            "a2" : "Demeter",
+            "a3" : "Kalli",
+            "a4" : "Centaur",
+            "cA" : "Tyche"
+            
+        },
+        {
+            "q" : "39. What human was granted immortality by one of the gods?",
+            "a1" : "Attis",
+            "a2" : "Chronos",
+            "a3" : "Jason",
+            "a4" : "Demeter",
+            "cA" : "Attis"
+        },
+        {   
+            "q" : "40. Whos weapon is often depicted as a trident?",
+            "a1" : "Posiedon",
+            "a2" : "Fenrir",
+            "a3" : "Typhon",
+            "a4" : "Zeus",
+            "cA" : "Poseidon"
+        },
+        {   
+            "q" : "41. Who would be waiting for you in hell if you were to die?",
+            "a1" : "Hades",
+            "a2" : "Thanatos",
+            "a3" : "Wedigo",
+            "a4" : "Charon",
+            "cA" : "Charon"
+        },
+        {
+            "q" : "42. Who created the labyrinth?",
+            "a1" : "Daedalus",
+            "a2" : "Perseus",
+            "a3" : "Tyr",
+            "a4" : "Prometheus",
+            "cA" : "Oceanus"
+        },
+        {
+            "q" : "43. What creature is at the center of said labyrinth?",
+            "a1" : "Minotaur",
+            "a2" : "Cerberus",
+            "a3" : "Lion",
+            "a4" : "Chimera",
+            "cA" : "Minotaur"
+        },
+        {
+            "q" : "44. Whos the son of the man who created the labyrinth?",
+            "a1" : "Icarus",
+            "a2" : "Celestia",
+            "a3" : "Ao kuang",
+            "a4" : "Apollo",
+            "cA" : "Icarus"
+        },
+        {
+            "q" : "45. Who leaded the argonauts?",
+            "a1" : "Jason",
+            "a2" : "Fenrir",
+            "a3" : "Ares",
+            "a4" : "Bender",
+            "cA" : "Jason"
+        },
+        {
+            "q" : "46. Who judges the souls before they enter the underworld?",
+            "a1" : "Aiakos",
+            "a2" : "Jason",
+            "a3" : "Icarus",
+            "a4" : "Hera",
+            "cA" : "Aiakos"
+        },
+        {
+            "q" : "47. What kids animated movie did they have the main character play as a demi-god?",  
+            "a1" : "Perseus",
+            "a2" : "Aphrodite",
+            "a3" : "Minotaur",
+            "a4" : "Hercules",
+            "cA" : "Hercules"
+        },
+        {
+            "q" : "48. Wheres Mt. Olympus located?",
+            "a1" : "Athens",
+            "a2" : "Rome",
+            "a3" : "Greece",
+            "a4" : "Turkey",
+            "cA" : "Greece"
+        },
+        {
+            "q" : "49. How many greek gods are there?",
+            "a1" : "20",
+            "a2" : "30",
+            "a3" : "50",
+            "a4" : "75 or more",
+            "cA" : "75 or more"
+        },
+        {
+            "q" : "50. Whos the greek god of wind and air",
+            "a1" : "Aeolus",
+            "a2" : "Alastor",
+            "a3" : "Leela",
+            "a4" : "Hercule",
+            "cA" : "Aelous"
+        }
     ]
 }

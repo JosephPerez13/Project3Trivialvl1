@@ -27,3 +27,7 @@
 .bgBlue{
     background-color: #6557C6;
 }
+.hero-image2{
+    background-image: url('../assets/greekGodWorld.jpg');
+    background-size: 85%;
+}
