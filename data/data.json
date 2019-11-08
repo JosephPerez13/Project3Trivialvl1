@@ -145,14 +145,6 @@
             "cA" : "Poseidon"
         },
         {
-            "q" : "19. Whos the messenger of the greek gods?",
-            "a1" : "Mercury",
-            "a2" : "Hermes",
-            "a3" : "Artemis",
-            "a4" : "Tyr",
-            "cA" : "Hermes"
-        },
-        {
             "q" : "19. What titan carries the world on his back?",
             "a1" : "Atlas",
             "a2" : "Gaia",
@@ -413,12 +405,12 @@
     ],
     "medQ": [
         {
-            "Q" : "",
-            "a1" : "",
-            "a2" : "",
-            "a3" : "",
-            "a4" : "",
-            "cA" : ""
+            "q" : "1. Whos the messenger of the greek gods?",
+            "a1" : "Mercury",
+            "a2" : "Hermes",
+            "a3" : "Artemis",
+            "a4" : "Tyr",
+            "cA" : "Hermes"
         },
         {
 
