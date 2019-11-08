@@ -1,5 +1,6 @@
 let triviaQ = [];
-let totalQuestions = [20];
+let totalQuestions = 20;
+let btnText = document.getElementById('titleBtn');
 
 function loadQuestions() {
     let xmlhttp = new XMLHttpRequest();
@@ -25,8 +26,9 @@ function loadQuestions() {
 }
 
 function allQuestions(info){
-    console.log(e);
+    btnText.addEventListener('click', function(e){
+        console.log(e);
+    });
 }
-
 
 loadQuestions();
