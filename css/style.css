@@ -8,7 +8,7 @@
 .white{
     color:white;
 }
-#titleBtn{
+.titleBtn{
     margin-top: 50vh;
 }
 .center{
@@ -34,10 +34,10 @@
     background-image: url('../assets/greekGodWorld.jpg');
     background-size: cover;
 }
-.card{
-    height: 50vh;
-}
 .spacey{
     display: flex;
     align-content: flex-end;
+}
+.red{
+    color: maroon;
 }

@@ -13,7 +13,7 @@
     <title>Game Page</title>
 </head>
 
-<body class = "bgBlue">
+<body class="hero-image">
     <div class="container-fluid">
         <div class="row bgLGrey">
             <div class="col-1">
@@ -29,22 +29,26 @@
     <div class="my-5 py-3 container bgLGrey">
         <div class="row">
             <div class="col-12 center">
-                <h3 class = "white">The question will Go here</h3>
+                <h4 id="question" class="red">The question will Go here</h4>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-1">
-            </div>
-            <div class="col-4">
-
+            <div class="col-5 column">
+                <button id="ans1" type="button" class="btn btn-secondary btn-lg red"><b>Answer1</b></button>
+                <button id="ans3" type="button" class="btn btn-secondary btn-lg mt-5 red"><b>Answer3</b></button>
             </div>
             <div class="col-2"></div>
-            <div class="col-4">
-                
+            <div class="col-5 column">
+                <button id="ans2" type="button" class="btn btn-secondary btn-lg red"><b>Answer2</b></button>
+                <button id="ans4" type="button" class="btn btn-secondary btn-lg red mt-5"><b>Answer4</b></button>
             </div>
-            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-12 pt-5 my-5">
+                <li class="list-group-item list-group-item-primary center red py-3" style="font-size: 25px;">Correct Answer</li>
+            </div>
         </div>
     </div>
 
