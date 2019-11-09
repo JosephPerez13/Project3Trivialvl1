@@ -219,21 +219,25 @@ function loadGamePage(info) {
         if (!answered) {
             checkAnswer(e.target.innerText);
         }
+        timer = 30;
     });
     answ2.addEventListener('click', function (e) {
         if (!answered) {
             checkAnswer(e.target.innerText);
         }
+        timer = 30;
     });
     answ3.addEventListener('click', function (e) {
         if (!answered) {
             checkAnswer(info.target.innerText);
         }
+        timer = 30;
     });
     answ4.addEventListener('click', function (e) {
         if (!answered) {
             checkAnswer(e.target.innerText);
         }
+        timer = 30;
     });
 
     function checkAnswer(answer) {
@@ -253,7 +257,7 @@ function loadGamePage(info) {
         }, 2000)
     }
 }
-let timer = 200;
+let timer = 30;
 let clearTi;
 let answered = false;
 
@@ -263,7 +267,7 @@ function checkTime() {
     if (timer > 0 && answered == false) {
         time.innerText = timer--;
     } else {
-        clearInterval(checkTime);
+        
     }
 }
 
