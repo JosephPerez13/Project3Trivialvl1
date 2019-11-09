@@ -1,5 +1,5 @@
 let inject = document.getElementById('inject');
-
+let diff="";
 function injectHTML(url ) {
     let xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
@@ -95,6 +95,7 @@ function loadMainPage(info){
     let options = document.getElementById("options");
 
     ezMode.addEventListener('click', function(info){
+        diff="easy";
         injectHTML("../instructions.html");
         console.log(easyQ);
     })
@@ -121,12 +122,33 @@ function loadOptions(info){
         injectHTML("../mainPage.html");
     });
 }
+function questionR(q) {
+    let rNum = 0;
+    let triviaQ = [];
+    for (let i = 0; i < 20; i++) {
+        rNum = Math.floor(Math.random() * q.length);
+        console.log(rNum);
+        triviaQ.push(q[rNum]);
+        q.splice(rNum, 1);
+    }
+    console.log(triviaQ);
+    //nextQuestion(easyQ);
+    //return triviaQ;
+}
+
+let qCounter = 0;
+
 function loadInstructions(info) {
     inject.innerHTML = info;
     let enter = document.getElementById('enter');
     let options = document.getElementById('options');
     let back = document.getElementById('backArrow');
-
+    //conditional statement based on diff
+    if(diff=="easy"){
+        questionR(easyQ);
+    }else if(diff=="medium"){
+        questionR(medQ);
+    }
     enter.addEventListener('click', function(info){
         injectHTML("../gamePage.html");
     });
@@ -134,14 +156,51 @@ function loadInstructions(info) {
         injectHTML("../mainPage.html");
     });
 }
-function loadGamePage(info){
-    inject.innerHTML = info;
+function nextQuestion(obj){
+    let quest = document.getElementById('question');
     let answ1 = document.getElementById('ans1');
     let answ2 = document.getElementById('ans2');
     let answ3 = document.getElementById('ans3');
     let answ4 = document.getElementById('ans4');
+    let correct = document.getElementById('correctA')
     let options = document.getElementById('optionsBtn');
+        console.log(obj);
+        console.log(qCounter);
+    quest.innerText = obj[qCounter].q;//obj.esQ.q;
+    answ1.innerText = obj[qCounter].a1;
+    answ2.innerText = obj[qCounter].a2;
+    answ3.innerText = obj[qCounter].a3;
+    answ4.innerText = obj[qCounter].a4;
+    correct.innerText = "The Answer is a Secret";
+    correct.innerText = obj[qCounter].cA;
+    qCounter++;
+}
+function loadGamePage(info){
+    console.log("Load Game Page");
+    inject.innerHTML = info;
 
+    let quest = document.getElementById('question');
+    let answ1 = document.getElementById('ans1');
+    let answ2 = document.getElementById('ans2');
+    let answ3 = document.getElementById('ans3');
+    let answ4 = document.getElementById('ans4');
+    let correct = document.getElementById('correctA')
+    let options = document.getElementById('optionsBtn');
+console.log(diff=="easy");
+    if(diff == "easy"){
+        console.log(easyQ);
+        questionR(easyQ);
+        nextQuestion(easyQ);
+    }
+    if(diff =="medium"){
+        nextQuestion(medQ);
+    }
+    if(diff =="gowQ")
+    {
+        nextQuestion(godQ);
+    }
+       // nextQuestion(godQ);
+    
 }
 injectHTML("../titlePage.html");
 loadQuestions("../data/data.json");
