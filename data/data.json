@@ -595,88 +595,622 @@
             "cA": "Odysseus"
         },
         {
-            "q" : "According to Greek mythology, who rowed the dead across the river Styx?",
-            "a1" : "Charon",
-            "a2" : "Eurydice",
-            "a3" : "Joanna",
-            "a4" : "Promethus",
-            "cA" : "Charon"
+            "q": "According to Greek mythology, who rowed the dead across the river Styx?",
+            "a1": "Charon",
+            "a2": "Eurydice",
+            "a3": "Joanna",
+            "a4": "Promethus",
+            "cA": "Charon"
         },
-        {            
-            "q" : "",
-            "a1" : "",       
-            "a2" : "",       
-            "a3" : "",       
-            "a4" : "",       
-            "cA" : ""       
+        {
+            "q": "Who, in Greek mythology, created man?",
+            "a1": "The demi-god Hercules",
+            "a2": "The demi-god Promethus",
+            "a3": "The demi-god Eurydice",
+            "a4": "Joanna",
+            "cA": "The demi-god Promethus"
         },
-        {            
-            "q" : "",
-            "a1" : "",       
-            "a2" : "",       
-            "a3" : "",       
-            "a4" : "",       
-            "cA" : ""       
+        {
+            "q": "In Greek mythology what was the name of the wife of Hercules?",
+            "a1": "Artemis",
+            "a2": "Deianeria",
+            "a3": "Joanna",
+            "a4": "Aphrodite",
+            "cA": "Deianeria"
         },
-        {            
-            "q" : "",
-            "a1" : "",       
-            "a2" : "",       
-            "a3" : "",       
-            "a4" : "",       
-            "cA" : ""       
+        {
+            "q": "Aegis belonged to Zeus, but what was it?",
+            "a1": "A Sword",
+            "a2": "A Hammer",
+            "a3": "A Shield",
+            "a4": "A lightning bolt",
+            "cA": "A Shield"
         },
-        {            
-            "q" : "",
-            "a1" : "",       
-            "a2" : "",       
-            "a3" : "",       
-            "a4" : "",       
-            "cA" : ""       
+        {
+            "q": "What was the name of the Goddess of the rainbow ?",
+            "a1": "Iris",
+            "a2": "Alastor",
+            "a3": "Asta",
+            "a4": "Boreas",
+            "cA": "Iris"
         },
-        {            
-            "q" : "",
-            "a1" : "",       
-            "a2" : "",       
-            "a3" : "",       
-            "a4" : "",       
-            "cA" : ""       
+        {
+            "q": "Polyphemus was the leader of what group of mythical giants?",
+            "a1": "Cyclops",
+            "a2": "Minotaurs",
+            "a3": "Trolls",
+            "a4": "Two-Eyed Giants",
+            "cA": "Cyclops"
         },
-        {            
-            "q" : "",
-            "a1" : "",       
-            "a2" : "",       
-            "a3" : "",       
-            "a4" : "",       
-            "cA" : ""       
+        {
+            "q": "What was the name of Norse God Thor's hammer ?",
+            "a1": "Isaac",
+            "a2": "Mjolnir",
+            "a3": "Raast",
+            "a4": "Thermite",
+            "cA": "Mjolnir"
         },
-        {            
-            "q" : "",
-            "a1" : "",       
-            "a2" : "",       
-            "a3" : "",       
-            "a4" : "",       
-            "cA" : ""       
+        {
+            "q": "Minerva is the Goddess of what?",
+            "a1": "Wisdom",
+            "a2": "Intelligence",
+            "a3": "Athletics",
+            "a4": "Communication",
+            "cA": "Wisdom"
         },
-        {            
-            "q" : "",
-            "a1" : "",       
-            "a2" : "",       
-            "a3" : "",       
-            "a4" : "",       
-            "cA" : ""       
+        {
+            "q": "What was the name of Odin's wife?",
+            "a1": "Attis",
+            "a2": "Gaia",
+            "a3": "Nermis",
+            "a4": "Frigga",
+            "cA": "Frigga"
         },
-        {            
-            "q" : "",
-            "a1" : "",       
-            "a2" : "",       
-            "a3" : "",       
-            "a4" : "",       
-            "cA" : ""       
+        {
+            "q": "Who was the Roman Goddess of Fruit Trees?",
+            "a1": "Pomona",
+            "a2": "Jateen",
+            "a3": "Lincoln",
+            "a4": "Nirvana",
+            "cA": "Pomona"
         },
-        
+        {
+            "q": "Nemsis was the Greek goddess of what",
+            "a1": "Relaxed",
+            "a2": "Retribution",
+            "a3": "Forgivenees",
+            "a4": "Happy",
+            "cA": "Retribution"
+        },
+        {
+            "q": "What was the name of the Greek goddess of the moon?",
+            "a1": "Aphrodite",
+            "a2": "Selene",
+            "a3": "Selina",
+            "a4": "Serena",
+            "cA": "Selene"
+        },
+        {
+            "q": "Who were the guardian spirits of the sea in Greek mythology?",
+            "a1": "Serpents",
+            "a2": "Neriads",
+            "a3": "Catfish",
+            "a4": "Sea Dragons",
+            "cA": "Neriads"
+        },
+        {
+            "q": "Nessus killed Hercules, but what was Nessus?",
+            "a1": "A Centaur",
+            "a2": "A Minotaur",
+            "a3": "A Chimera",
+            "a4": "A Horse",
+            "cA": "A Centaur"
+        },
+        {
+            "q": "Hebe was the goddess of what?",
+            "a1": "Anger",
+            "a2": "Youth",
+            "a3": "Wealth",
+            "a4": "Good Fortune",
+            "cA": "Youth"
+        },
+        {
+            "q": "Of this group, who is a Titan?",
+            "a1": "Zeus",
+            "a2": "Alastor",
+            "a3": "Gaea",
+            "a4": "Demeter",
+            "cA": "Gaea"
+        },
+        {
+            "q": "Which island were the Minotaur and his labyrinth located on?",
+            "a1": "Crete",
+            "a2": "Rhodes",
+            "a3": "Delos",
+            "a4": "Hawaii",
+            "cA": "Crete"
+        },
+        {
+            "q": "Who granted King Midas wish",
+            "a1": "Athena",
+            "a2": "Zeus",
+            "a3": "Hera",
+            "a4": "Dionysus",
+            "cA": "Dionysus"
+        },
+        {
+            "q": "Echo is a: ",
+            "a1": "Goddess",
+            "a2": "Nymph",
+            "a3": "Mortal",
+            "a4": "Gorgon",
+            "cA": "Nymph"
+        },
+        {
+            "q": "Pan is a god in the shape of a: ",
+            "a1": "Cyclops",
+            "a2": "Centaur",
+            "a3": "Satyr",
+            "a4": "Pegasus",
+            "cA": "Satyr"
+        },
+        {
+            "q": "Eos is what?",
+            "a1": "The Dawn",
+            "a2": "The Moon",
+            "a3": "The Sun",
+            "a4": "The Earth",
+            "cA": "The Dawn"
+        },
+        {
+            "q": "Charon is the: ",
+            "a1": "God fo sleep",
+            "a2": "Ferryman of the Underworld",
+            "a3": "The father of Gaea and Uranus",
+            "a4": "Guardian of the seas",
+            "cA": "Ferryman of the Underworld"
+        },
+        {
+            "q": "What is the name of the island on which Leto had her twins?",
+            "a1": "Delos",
+            "a2": "Crete",
+            "a3": "Rhodes",
+            "a4": "None, it was Mt. Olympus",
+            "cA": "Delos"
+        },
+        {
+            "q": "What was the name of the sea serpent that was supposed to devour Andromeda as an offering to save her parents' kingdom?",
+            "a1": "Cortis",
+            "a2": "Hydra",
+            "a3": "Hypion",
+            "a4": "Cetus",
+            "cA": "Cetus"
+        },
+        {
+            "q": "Which of these monuments from Greek mythology can you see today?",
+            "a1": "The Temple of Hephaestus",
+            "a2": "The Throne Room of Zeus",
+            "a3": "The Temple of Apollo",
+            "a4": "All of the above",
+            "cA": "All of the above"
+        },
+        {
+            "q": "Who is the queen of Greek God mythology?",
+            "a1": "Artemis",
+            "a2": "Hera",
+            "a3": "Persophone",
+            "a4": "Neith",
+            "cA": "Hera"
+        },
+        {
+            "q": "What tried to kill Hercules when he was a child?",
+            "a1": "Wolfs",
+            "a2": "Spiders",
+            "a3": "Snakes",
+            "a4": "A Minotaur",
+            "cA": "Snakes"
+        }
     ],
     "gowQ": [
-        {}
+        {
+            "q": "In God of War 3, who is the first god you battle? ",
+            "a1": "Hades",
+            "a2": "Gaia",
+            "a3": "Poseidon",
+            "a4": "Zeus",
+            "cA": "Poseidon"
+        },
+        {
+            "q": "What is the first weapon you get in God of War 3?",
+            "a1": "Claw of Hades",
+            "a2": "Blades of Athena",
+            "a3": "Blades of Olympus",
+            "a4": "Blade of Exile",
+            "cA": "Blades of Exile"
+        },
+        {
+            "q": "Kratos has a LOT of rage. Specifically, what kind of rage in God of War 3?",
+            "a1": "Rage of the Titans",
+            "a2": "Rage of Zeus",
+            "a3": "Rage of the Gods",
+            "a4": "Rage of Sparta",
+            "cA": "Rage of Sparta"
+        },
+        {
+            "q": "Who guards the Chain of Balance and is a mini-boss GOW3?",
+            "a1": "Cerberus",
+            "a2": "Skorpius",
+            "a3": "Hades",
+            "a4": "Hades Cerberus Breeder",
+            "cA": "Hades Cerberus Breeder"
+        },
+        {
+            "q": "Which of the following is NOT a weapon in the game?",
+            "a1": "Nemean Cestus",
+            "a2": "Blade of Zeus",
+            "a3": "Blades of Exile",
+            "a4": "Nemesis Whip",
+            "cA": "Blade of Zeus"
+        },
+        {
+            "q": "Challenge of the Gods is unlocked upon completing the game. How many are there?",
+            "a1": "Eight",
+            "a2": "Ten",
+            "a3": "Five",
+            "a4": "Seven",
+            "cA": "Ten"
+        },
+        {
+            "q": "In GOW3, He must have a huge headache now...maybe because you ripped it off. Who's was it again?",
+            "a1": "Apollo",
+            "a2": "Hercules",
+            "a3": "Hermes",
+            "a4": "Helios",
+            "cA": "Helios"
+        },
+        {
+            "q": "As Kratos and Gaia climb Mt. Olympus in the opening of the game, what does Kratos yell up to the top?",
+            "a1": "I shall have my Vengeance!",
+            "a2": "Zeus! Your son has returned, I bring the destruction of Olympus!",
+            "a3": "Zeus! Your reign ends today! I bring the destruction of Olympus!",
+            "a4": "Olympus! I shall have my revenge!",
+            "cA": "Zeus! Your son has returned, I bring the destruction of Olympus!"
+        },
+        {
+            "q": "GOW3 has four different difficulties. Which of the following is NOT a difficulty SPECIFICALLY in GOW 3?",
+            "a1": "God",
+            "a2": "Titan",
+            "a3": "Mortal",
+            "a4": "Chaos",
+            "cA": "Mortal"
+        },
+        {
+            "q": "Who is the Ghost of Sparta?",
+            "a1": "Zeus",
+            "a2": "Hermes",
+            "a3": "Atreus",
+            "a4": "Kratos",
+            "cA": "Kratos"
+        },
+        {
+            "q": "Who is Kratos's Daughter?",
+            "a1": "Armana",
+            "a2": "Calliope",
+            "a3": "Lysandra",
+            "a4": "Penelope",
+            "cA": "Calliope"
+        },
+        {
+            "q": "Who was Kratos's wife in the first installment?",
+            "a1": "Calliope",
+            "a2": "Penelope",
+            "a3": "Lysandra",
+            "a4": "Hera",
+            "cA": "Lysandra"
+        },
+        {
+            "q": "Who did Kratos kill to become the greek God of war?",
+            "a1": "Ares",
+            "a2": "Aphrodite",
+            "a3": "Persophone",
+            "a4": "Apollo",
+            "cA": "Ares"
+        },
+        {
+            "q": "Why is Kratos skin covered white",
+            "a1": "He was in an accident that damaged his skin",
+            "a2": "He was given it when he became a god",
+            "a3": "He was forced to wear the ashes of his dead family",
+            "a4": "He was born with it",
+            "cA": "He was forced to wear the ashes of his dead family"
+        },
+        {
+            "q": "What is the titans name who talks and helps you through GOW2?",
+            "a1": "Atlas",
+            "a2": "Chronos",
+            "a3": "Gaia",
+            "a4": "Oceanus",
+            "cA": "Gaia"
+        },
+        {
+            "q": "Who was the god that Kratos pleaded to for help in winning in a battle?",
+            "a1": "Hera",
+            "a2": "Zeus",
+            "a3": "Ares",
+            "a4": "Artemis",
+            "cA": "Ares"
+        },
+        {
+            "q": "Who killed Kratos family?",
+            "a1": "Barbarians",
+            "a2": "Raiders",
+            "a3": "Athena",
+            "a4": "Kratos",
+            "cA": "Kratos"
+        },
+        {
+            "q": "Who transported Kratos family into the chapel where they later died?",
+            "a1": "Athena",
+            "a2": "Ares",
+            "a3": "Zeus",
+            "a4": "Poseidon",
+            "cA": "Ares"
+        },
+        {
+            "q": "Who forced Kratos to wear the dead ashes of his family",
+            "a1": "Ares",
+            "a2": "Athena",
+            "a3": "Zeus",
+            "a4": "The Oracle",
+            "cA": "The Oracle"
+        },
+        {
+            "q": "Which one of these installments DIDN'T do as good?",
+            "a1": "God of War",
+            "a2": "God of War 2",
+            "a3": "God of War 3",
+            "a4": "God of War Ascension",
+            "cA": "God of War Ascension"
+        },
+        {
+            "q": "Who was the final boss in God of War",
+            "a1": "Persophone",
+            "a2": "Chimera",
+            "a3": "Apollo",
+            "a4": "Ares",
+            "cA": "Ares"
+        },
+        {
+            "q": "What is Kratos tasked with finding in the first installemnt?",
+            "a1": "Pandora's Box",
+            "a2": "Chain Blades",
+            "a3": "A Titan",
+            "a4": "A box",
+            "cA": "Pandora's Box"
+        },
+        {
+            "q": "Who was Kratos Brother?",
+            "a1": "Daemion",
+            "a2": "Deity",
+            "a3": "Daemos",
+            "a4": "Romeo",
+            "cA": "Daemos"
+        },
+        {
+            "q": "Who was Zeus dad in GOW1",
+            "a1": "Chronos",
+            "a2": "Atlas",
+            "a3": "Oceanus",
+            "a4": "Gaia",
+            "cA": "Chronos"
+        },
+        {
+            "q": "What does kratos use to fight Zeus in GOW2",
+            "a1": "Blade of Olympus",
+            "a2": "Blade of Zeus",
+            "a3": "Blade of Athena",
+            "a4": "Chaos Blades",
+            "cA": "Blade of Olympus"
+        },
+        {
+            "q": "Who is the blacksmith of the gods",
+            "a1": "Hercules",
+            "a2": "Hera",
+            "a3": "Hades",
+            "a4": "Hephaestus",
+            "cA": "Hephaestus"
+        },
+        {
+            "q": "Who is the first god you fight in GOW 2018",
+            "a1": "Atreus",
+            "a2": "Freya",
+            "a3": "Thor",
+            "a4": "Baldur",
+            "cA": "Baldur"
+        },
+        {
+            "q": "What Mythology is GOW 2018 in?",
+            "a1": "Greek",
+            "a2": "Norse",
+            "a3": "Egyptian",
+            "a4": "Rome",
+            "cA": "Norse"
+        },
+        {
+            "q": "Who is the severed head that tag along with you and your son?",
+            "a1": "Gogoren",
+            "a2": "Baldur",
+            "a3": "Jeffrey",
+            "a4": "Mimir",
+            "cA": "Mimir"
+        },
+        {
+            "q": "What is the main quest of GOW 2018?",
+            "a1": "Killing the new gods in the world",
+            "a2": "Teaching his son to be a god",
+            "a3": "Spreading his wife's ashes",
+            "a4": "Pure Boredeom",
+            "cA": "Spreading his wife's ashes"
+        },
+        {
+            "q": "What was a another Mythology that was considered in making the new GOW?",
+            "a1": "Roman",
+            "a2": "Chinese",
+            "a3": "Egyptian",
+            "a4": "American",
+            "cA": "Egyptian"
+        },
+        {
+            "q": "How many realms are there in GOW?",
+            "a1": "6",
+            "a2": "8",
+            "a3": "5",
+            "a4": "9",
+            "cA": "9"
+        },
+        {
+            "q": "What is Kratos new weapon in GOW?",
+            "a1": "Nunchucks",
+            "a2": "Sword",
+            "a3": "Fists",
+            "a4": "Axe",
+            "cA": "Axe"
+        },
+        {
+            "q": "How many Valkyries are in GOW?",
+            "a1": "6",
+            "a2": "9",
+            "a3": "5",
+            "a4": "8",
+            "cA": "9"
+        },
+        {
+            "q": "Who gifted Atreus his bow?",
+            "a1": "Kratos",
+            "a2": "He found it",
+            "a3": "His Mother",
+            "a4": "His grandpa",
+            "cA": "His Mother"
+        },
+        {
+            "q": "How many tattos does Atreus have?",
+            "a1": "1",
+            "a2": "2",
+            "a3": "3",
+            "a4": "None",
+            "cA": "2"
+        },
+        {
+            "q": "What is the name of the world serpent?",
+            "a1": "Loki",
+            "a2": "Thor",
+            "a3": "Jormungandr",
+            "a4": "Njord",
+            "cA": "Jormungandr"
+        },
+        {
+            "q": "Who are the dwarven black smiths that help upgrade your armor?",
+            "a1": "Fafnir & Ivaldi",
+            "a2": "Ivaldi & Brok",
+            "a3": "Fafnir & Sindri",
+            "a4": "Sindri & Brok",
+            "cA": "Sindri & Brok"
+        },
+        {
+            "q": "What weapon does Kratos eventually unlock in GOW 2018?",
+            "a1": "Blade of Zeus",
+            "a2": "Chaos Blades",
+            "a3": "Blade of Olympus",
+            "a4": "Blades of Exile",
+            "cA": "Chaos Blades"
+        },
+        {
+            "q": "Who is Kratos wife in GOW?",
+            "a1": "Hephaestus",
+            "a2": "Faye",
+            "a3": "Mimir",
+            "a4": "Loren",
+            "cA": "Faye"
+        },
+        {
+            "q": "Who is the last God you kill in GOW 2018?",
+            "a1": "Odin",
+            "a2": "Thor",
+            "a3": "Jorgumandr",
+            "a4": "Baldur",
+            "cA": "Baldur"
+        },
+        {
+            "q": "What is the name of the dragon that attacks you when you're with Atreus?",
+            "a1": "Fafnir",
+            "a2": "Freya",
+            "a3": "Hraezlyr",
+            "a4": "Jorgumandr",
+            "cA": "Hraezlyr"
+        },
+        {
+            "q": "What is the name of the dwarf that transformed into a dragon?",
+            "a1": "Simir",
+            "a2": "Brok",
+            "a3": "Ivaldi",
+            "a4": "Fafnir",
+            "cA": "Fafnir"
+        },
+        {
+            "q": "Who gives Kratos the blades of exhile in GOW2?",
+            "a1": "Persophone",
+            "a2": "Hera",
+            "a3": "Athena",
+            "a4": "Hephaestus",
+            "cA": "Athena"
+        },
+        {
+            "q": "How many GOW games are there in TOTAL?",
+            "a1": "4",
+            "a2": "9",
+            "a3": "5",
+            "a4": "8",
+            "cA": "8"
+        },
+        {
+            "q": "Who is the final boss in GOW Chains of Olympus?",
+            "a1": "Persephone",
+            "a2": "Hera",
+            "a3": "Hades",
+            "a4": "Helios",
+            "cA": "Persophone"
+        },
+        {
+            "q": "Who is the owner of the GOW franchise?",
+            "a1": "Voodoo studios",
+            "a2": "Blizzard Studios",
+            "a3": "Santa Monica Studios",
+            "a4": "Naughty Dog Studios",
+            "cA": "Santa Monica Studios"
+        },
+        {
+            "q": "Who was Kratos mother?",
+            "a1": "Hera",
+            "a2": "Aphrodite",
+            "a3": "Callisto",
+            "a4": "Freya",
+            "cA": "Callisto"
+        },
+        {
+            "q": "Who gave Kratos the scar over his eye?",
+            "a1": "Persephone",
+            "a2": "His Mother",
+            "a3": "Zeus",
+            "a4": "Ares",
+            "cA": "Ares"
+        },
+        {
+            "q": "Who is the mother to Baldur in the new GOW?",
+            "a1": "Frigg",
+            "a2": "Sif",
+            "a3": "Freya",
+            "a4": "Sigyn",
+            "cA": "Freya"
+        }
     ]
 }
