@@ -314,7 +314,7 @@
         },
         {
             "q": "Whos weapon is often depicted as a trident?",
-            "a1": "Posiedon",
+            "a1": "Poseidon",
             "a2": "Fenrir",
             "a3": "Typhon",
             "a4": "Zeus",
@@ -386,11 +386,11 @@
         },
         {
             "q": "How many greek gods are there?",
-            "a1": "20",
-            "a2": "30",
-            "a3": "50",
+            "a1": "5",
+            "a2": "15",
+            "a3": "12",
             "a4": "75 or more",
-            "cA": "75 or more"
+            "cA": "12"
         },
         {
             "q": "Whos the greek god of wind and air",
@@ -398,7 +398,7 @@
             "a2": "Alastor",
             "a3": "Leela",
             "a4": "Hercule",
-            "cA": "Aelous"
+            "cA": "Aeolus"
         }
     ],
     "medQ": [
@@ -811,7 +811,7 @@
             "cA": "Snakes"
         }
     ],
-    "gowQ": [
+    "godQ": [
         {
             "q": "In God of War 3, who is the first god you battle? ",
             "a1": "Hades",
