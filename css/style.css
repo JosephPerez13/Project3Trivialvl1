@@ -42,3 +42,7 @@
 .red{
     color: maroon;
 }
+
+.secretBtn {
+    visibility: hidden; 
+}

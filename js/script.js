@@ -1,5 +1,14 @@
 let inject = document.getElementById('inject');
 let diff = 1;
+let visible = false;
+let clearTi;
+let totalQuestions = 20;
+let qCount = 0;
+let score = 0;
+let sound = false;
+let audio = new Audio();
+audio.src = "../";
+audio.play();
 
 function injectHTML(url) {
     let xmlhttp = new XMLHttpRequest();
@@ -13,13 +22,15 @@ function injectHTML(url) {
             } else if (url === "../options.html") {
                 loadOptions(myArr);
             } else if (url === "../instructions.html") {
-                loadInstructions(myArr,);
+                loadInstructions(myArr);
             } else if (url === "../gamePage.html"  && diff === 1) {
                 loadGamePage(myArr,easyQ);
-            }else if (url === "../gameMedium.html"  && diff === 2) {
+            }else if (url === "../gamePage.html"  && diff === 2) {
                 loadGamePage(myArr,medQ);
-            }else if (url === "../gameHard.html"  && diff === 3) {
+            }else if (url === "../gamePage.html"  && diff === 3) {
                 loadGamePage(myArr,godQ);
+            }else if (url === "../resultPage.html"){
+                loadResultPage(myArr)
             }
         }
 
@@ -93,61 +104,65 @@ function loadTitlePage(info) {
 };
 function loadMainPage(info) {
     inject.innerHTML = info;
+    console.log(visible);
+    if (visible == true) {
+        let gowBtn = document.getElementById('secretBtn');
+        gowBtn.className = "";
+        gowBtn.addEventListener('click', function (info) {
+            diff = 3;
+            injectHTML("../gamePage.html")
+            console.log(godQ);
+        });
+    }
     let ezMode = document.getElementById("ezBtn");
     let medMode = document.getElementById("medBtn");
-    let gowBtn = document.getElementById('secretBtn');
     let options = document.getElementById("options");
-
+    
     ezMode.addEventListener('click', function (info) {
         diff = 1;
-        injectHTML("../gamePage.html");
+        injectHTML("../gamePage.html")
         console.log(easyQ);
-    })
+    });
     medMode.addEventListener('click', function (info) {
         diff = 2;
-        injectHTML("../gameMedium.html");
+        injectHTML("../gamePage.html")
         console.log(medQ);
     });
-    gowBtn.addEventListener('click', function (info) {
-        diff = 3;
-        injectHTML("../gameHard.html");
-        console.log(godQ);
-    });
     options.addEventListener('click', function (info) {
-        injectHTML("../options.html");
+        injectHTML("../options.html")
     });
 };
+
 function loadOptions(info) {
     inject.innerHTML = info;
     let back = document.getElementById('backArrow');
     let music = document.getElementById('music');
-    let background = document.getElementById('backgroundChange');
-    let secret = document.getElementById('hiddenBtn');
+    let secret = document.getElementById('activate');
 
     back.addEventListener('click', function (info) {
         injectHTML("../mainPage.html");
+    });
+    music.addEventListener('click',function(e){
+        if(sound != true){
+            audio.play();
+        }else{
+            audio.pause();
+            audio.currentTime = 0;
+        }
+    });
+
+    secret.addEventListener('click', function(info){
+        visible = true;    
+        console.log(visible);
     });
 }
 
 function loadInstructions(info) {
     inject.innerHTML = info;
     let enter = document.getElementById('enter');
-    let options = document.getElementById('options');
-    let back = document.getElementById('backArrow');
 
-    //conditional statement based on diff
-    // if (diff == 1) {
-    //     questionR(easyQ);
-    // } else if (diff == 2) {
-    //     questionR(medQ);
-    // }else {
-    //     questionR(godQ);
-    // }
     enter.addEventListener('click', function (info) {
-        injectHTML("../mainPage.html")
-    });
-    back.addEventListener('click', function (info) {
-        injectHTML("../titlePage.html");
+        injectHTML("../mainPage.html");
     });
 }
 function questionR(questions) {
@@ -166,6 +181,7 @@ function questionR(questions) {
 let correctA = "";
 
 function nextQuestion(obj) {
+    //clearInterval(clearTi);
     let quest = document.getElementById('question');
     let answ1 = document.getElementById('ans1');
     let answ2 = document.getElementById('ans2');
@@ -176,10 +192,9 @@ function nextQuestion(obj) {
     // console.log(obj);
     // console.log(qCount);
 
-    if(qCount === 20){
-        reset();
-    }else{
-
+    if(qCount < totalQuestions)
+    {
+        qCount++;
         quest.innerText = obj.q;
         answ1.innerText = obj.a1;
         answ2.innerText = obj.a2;
@@ -188,18 +203,21 @@ function nextQuestion(obj) {
         correct.innerText = "The Answer is a Secret";
         correctA = obj.cA;
         answered = false;
-        qCount++;
+    }else{
+        injectHTML('../resultPage.html');
     }
+    timer=30;
+    //setInterval(checkTime, 1000);
 }
 
-let qCount = 0;
+// document.getElementById("showImage").onclick = function() {
+//     document.getElementById("secretBtn").style.visibility = "visible";
+// }
 
 function loadGamePage(info,questions) {
     let triviaQuestions = questionR(questions);
     inject.innerHTML = info;
-    console.log(diff);
-
-    let score = 0;
+    console.log(diff);    
 
     let blue = document.getElementById('bgBlue');
     let quest = document.getElementById('question');
@@ -211,15 +229,17 @@ function loadGamePage(info,questions) {
     let options = document.getElementById('optionsBtn');
     let time = document.getElementById('timer');
     let scoreBoard = document.getElementById('score');
+    let background = document.getElementById('background');
 
+    if(diff == 3){
+        background.className = "hero-image2";    
+    }
     clearTi = setInterval(checkTime, 1000);
     nextQuestion(triviaQuestions[qCount]);
 
     // nextQuestion(trivia1[qCount]);
     // nextQuestion(trivia2[qCount]);
     // nextQuestion(trivia3[qCount]);
-
-    checkTime();
     //console.log(diff=="easy");
    
     answ1.addEventListener('click', function (e) {
@@ -256,12 +276,11 @@ function loadGamePage(info,questions) {
             scoreBoard.innerText = score;
             correct.innerText = correctA;
         }
-        checkTime();
 
         setTimeout(() => {
             nextQuestion(triviaQuestions[qCount]);
-            checkAnswer(e.target.innerText);
-        }, 5000)
+           
+        }, 000)
     }
 }
 
@@ -270,7 +289,6 @@ function loadGameMedium(info,questions) {
     inject.innerHTML = info;
     console.log(diff);
 
-    let score = 0;
     let triviaQuestions = questionR(questions);
 
     let blue = document.getElementById('bgBlue');
@@ -284,14 +302,13 @@ function loadGameMedium(info,questions) {
     let time = document.getElementById('timer');
     let scoreBoard = document.getElementById('score');
 
-    clearTi = setInterval(checkTime, 1000);
+   // clearTi = setInterval(checkTime, 1000);
     nextQuestion(triviaQuestions[qCount]);
 
     // nextQuestion(trivia1[qCount]);
     // nextQuestion(trivia2[qCount]);
     // nextQuestion(trivia3[qCount]);
 
-    checkTime();
     //console.log(diff=="easy");
    
     answ1.addEventListener('click', function (e) {
@@ -328,12 +345,11 @@ function loadGameMedium(info,questions) {
             scoreBoard.innerText = score;
             correct.innerText = correctA;
         }
-        checkTime();
+       // checkTime();
 
         setTimeout(() => {
             nextQuestion(triviaQuestions[qCount]);
-            checkAnswer(e.target.innerText);
-        }, 2000)
+            }, 2000)
     }
 }
 
@@ -343,8 +359,6 @@ function loadGameHard(info,questions) {
     inject.innerHTML = info;
     console.log(diff);
 
-    let score = 0;
-
     let blue = document.getElementById('bgBlue');
     let quest = document.getElementById('question');
     let answ1 = document.getElementById('ans1');
@@ -362,8 +376,6 @@ function loadGameHard(info,questions) {
     // nextQuestion(trivia1[qCount]);
     // nextQuestion(trivia2[qCount]);
     // nextQuestion(trivia3[qCount]);
-
-    checkTime();
     //console.log(diff=="easy");
    
     answ1.addEventListener('click', function (e) {
@@ -400,16 +412,32 @@ function loadGameHard(info,questions) {
             scoreBoard.innerText = score;
             correct.innerText = correctA;
         }
-        checkTime();
 
         setTimeout(() => {
             nextQuestion(triviaQuestions[qCount]);
-            checkAnswer(e.target.innerText);
         }, 2000)
     }
 }
+
+function loadResultPage(info){
+    inject.innerHTML = info;
+    let scoreTotal = document.getElementById('result');
+    let startOver = document.getElementById('restart');
+    let exit = document.getElementById('exit');
+    console.log(score);
+    scoreTotal.innerText = score;
+
+    startOver.addEventListener('click', function(){
+        reset();
+        injectHTML("../titlePage.html");
+    });
+    exit.addEventListener('click', function(){
+        injectHTML('https://www.google.com');
+    });
+}
+
 let timer = 30;
-let clearTi;
+//let clearTi;
 let answered = false;
 
 function checkTime() {
@@ -419,10 +447,13 @@ function checkTime() {
         time.innerText = timer--;
     }else if(timer===0){
 
+        qCount++;
+        //console.log(triviaQuestions[qCount]);
+        timer=30;
+        nextQuestion(triviaQuestions[qCount]);
     }
 }
 
-let score = 0;
 function reset(){
     clearInterval(clearTi);
     timer = 30;
