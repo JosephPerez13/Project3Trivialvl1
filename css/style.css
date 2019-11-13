@@ -31,7 +31,7 @@
 .bgBlue{
     background-color: #6557C6;
 }
-.hero-image2{
+#hero-image2{
     background-image: url('../assets/greekGodWorld.jpg');
     background-size: cover;
 }
@@ -45,4 +45,8 @@
 
 .secretBtn {
     visibility: hidden; 
+}
+#hero-image3{
+    background-image: url('../assets/Ares-God-of-War.jpg');
+    background-size: cover;
 }

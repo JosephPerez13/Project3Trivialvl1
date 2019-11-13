@@ -5,10 +5,8 @@ let clearTi;
 let totalQuestions = 20;
 let qCount = 0;
 let score = 0;
+let audio = new Audio( "../music/GOW-CallToArms.mp3");
 let sound = false;
-let audio = new Audio();
-audio.src = "../";
-audio.play();
 
 function injectHTML(url) {
     let xmlhttp = new XMLHttpRequest();
@@ -27,8 +25,8 @@ function injectHTML(url) {
                 loadGamePage(myArr,easyQ);
             }else if (url === "../gamePage.html"  && diff === 2) {
                 loadGamePage(myArr,medQ);
-            }else if (url === "../gamePage.html"  && diff === 3) {
-                loadGamePage(myArr,godQ);
+            }else if (url === "../gameHard.html"  && diff === 3) {
+                loadGameHard(myArr,godQ);
             }else if (url === "../resultPage.html"){
                 loadResultPage(myArr)
             }
@@ -96,10 +94,13 @@ function loadQuestions(url) {
     //console.log(easyQ);
 function loadTitlePage(info) {
     inject.innerHTML = info;
-
     let start = document.getElementById('start');
     start.addEventListener('click', function (info) {
-        injectHTML("../instructions.html");
+        if(sound == false){
+            audio.play();
+            injectHTML("../instructions.html");
+            sound = true;
+        }
     });
 };
 function loadMainPage(info) {
@@ -110,7 +111,7 @@ function loadMainPage(info) {
         gowBtn.className = "";
         gowBtn.addEventListener('click', function (info) {
             diff = 3;
-            injectHTML("../gamePage.html")
+            injectHTML("../gameHard.html")
             console.log(godQ);
         });
     }
@@ -143,11 +144,15 @@ function loadOptions(info) {
         injectHTML("../mainPage.html");
     });
     music.addEventListener('click',function(e){
-        if(sound != true){
+        if(sound == false){
             audio.play();
+            music.innerText = "Music: ON";
+            sound = true;
         }else{
             audio.pause();
             audio.currentTime = 0;
+            music.innerText = "Music: OFF";
+            sound = false
         }
     });
 
@@ -230,9 +235,12 @@ function loadGamePage(info,questions) {
     let time = document.getElementById('timer');
     let scoreBoard = document.getElementById('score');
     let background = document.getElementById('background');
-
+    let background1 = document.getElementById('background1');
     if(diff == 3){
         background.className = "hero-image2";    
+    }
+    else if(diff == 2){
+        background1.className = "hero-image3";
     }
     clearTi = setInterval(checkTime, 1000);
     nextQuestion(triviaQuestions[qCount]);
@@ -280,16 +288,16 @@ function loadGamePage(info,questions) {
         setTimeout(() => {
             nextQuestion(triviaQuestions[qCount]);
            
-        }, 000)
+        }, 2000)
     }
 }
 
 
 function loadGameMedium(info,questions) {
+    let triviaQuestions = questionR(questions);
     inject.innerHTML = info;
     console.log(diff);
 
-    let triviaQuestions = questionR(questions);
 
     let blue = document.getElementById('bgBlue');
     let quest = document.getElementById('question');
@@ -359,7 +367,6 @@ function loadGameHard(info,questions) {
     inject.innerHTML = info;
     console.log(diff);
 
-    let blue = document.getElementById('bgBlue');
     let quest = document.getElementById('question');
     let answ1 = document.getElementById('ans1');
     let answ2 = document.getElementById('ans2');
@@ -369,7 +376,9 @@ function loadGameHard(info,questions) {
     let options = document.getElementById('optionsBtn');
     let time = document.getElementById('timer');
     let scoreBoard = document.getElementById('score');
+    let background1 = document.getElementById('background1');
 
+    background1.className = "hero-image2";
     clearTi = setInterval(checkTime, 1000);
     nextQuestion(triviaQuestions[qCount]);
 
@@ -423,16 +432,12 @@ function loadResultPage(info){
     inject.innerHTML = info;
     let scoreTotal = document.getElementById('result');
     let startOver = document.getElementById('restart');
-    let exit = document.getElementById('exit');
     console.log(score);
     scoreTotal.innerText = score;
 
     startOver.addEventListener('click', function(){
         reset();
         injectHTML("../titlePage.html");
-    });
-    exit.addEventListener('click', function(){
-        injectHTML('https://www.google.com');
     });
 }
 
@@ -442,6 +447,7 @@ let answered = false;
 
 function checkTime() {
     let time = document.getElementById('timer');
+    // let triviaQuestions = questionR(questions);
 
     if (timer != 0 && answered == false) {
         time.innerText = timer--;
@@ -450,7 +456,7 @@ function checkTime() {
         qCount++;
         //console.log(triviaQuestions[qCount]);
         timer=30;
-        nextQuestion(triviaQuestions[qCount]);
+        // nextQuestion(triviaQuestions[qCount]);
     }
 }
 
@@ -459,6 +465,8 @@ function reset(){
     timer = 30;
     score = 0;
     qCount = 0;
+    audio.pause();
+    sound = false
 }
 
 
