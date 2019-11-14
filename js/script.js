@@ -445,6 +445,7 @@ let timer = 30;
 //let clearTi;
 let answered = false;
 
+// I coundnt figure out how to have my timer go to the next question when time ended
 function checkTime() {
     let time = document.getElementById('timer');
     // let triviaQuestions = questionR(questions);
@@ -454,6 +455,8 @@ function checkTime() {
     }else if(timer===0){
 
         qCount++;
+        
+        //nextQuestion(qCount++);
         //console.log(triviaQuestions[qCount]);
         timer=30;
         // nextQuestion(triviaQuestions[qCount]);
